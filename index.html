@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My personal Website</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jennifer Nyambura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="profile-image">JN</div>
+            <h1 class="title">Jennifer Nyambura</h1>
+            <p class="welcome-message">Welcome to my personal website! I'm glad you're here.</p>
+            
+            <!-- Computer Animation -->
+            <div class="computer-animation">
+                <div class="screen"></div>
+                <div class="keyboard"></div>
+            </div>
+        </div>
+
+        <!-- Content Grid -->
+        <div class="content-grid">
+            <!-- Interests Section -->
+            <div class="section interests">
+                <h2 class="section-title">My Interests</h2>
+                <div class="section-content">
+                    <p>I'm passionate about technology and digital innovation. I love exploring new programming languages, staying updated with the latest tech trends, and working on creative projects that challenge my problem-solving skills.</p>
+                    <br>
+                    <p>When I'm not coding, I enjoy reading, listening to music, and spending time in nature. I believe in continuous learning and personal growth.</p>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="section skills">
+                <h2 class="section-title">My Skills</h2>
+                <div class="section-content">
+                    <p><strong>Technical Skills:</strong> Web Development, Programming, Database Management, UI/UX Design</p>
+                    <br>
+                    <p><strong>Languages:</strong> HTML, CSS, JavaScript, Python</p>
+                    <br>
+                    <p><strong>Soft Skills:</strong> Problem Solving, Team Collaboration, Communication, Project Management</p>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="section contact">
+                <h2 class="section-title">Contact Info</h2>
+                <div class="section-content">
+                    <div class="contact-item">jennifer.nyambura@email.com</div>
+                    <div class="contact-item">+254 700 000 000</div>
+                    <div class="contact-item">Nairobi, Kenya</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visitor Section -->
+        <div class="visitor-section">
+            <h2 class="section-title">Sign My Guestbook</h2>
+            <p>Leave your name to let me know you visited!</p>
+            <input type="text" class="visitor-input" id="visitorName" placeholder="Enter your name here...">
+            <br>
+            <button class="visitor-btn" onclick="addVisitor()">Sign Guestbook</button>
+            <div class="visitor-display" id="visitorDisplay"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
